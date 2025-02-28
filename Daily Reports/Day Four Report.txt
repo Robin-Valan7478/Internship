@@ -1,0 +1,91 @@
+DAY THREE @ SURFBOARD PAYMENTS
+
+Date: 27/02/2025
+Nmae: Robin Valan Raj R
+
+
+RECAP: 
+
+	The five basic Skills for Programming/coding are Reading, Writing, Learning, Researching/Googling, and Problem-Solving.
+		Reading: Read the problem. If we can't understand the problem, we should reread it so that by reading it again and again, it can give different perspectives of the problem and various solutions to solve the problem. 
+
+		Writing: We have to write the constraints of the problem and list out the operations of the problem. so that we can come up with the best solutions satisfying the constraints and operations. So, writing helps to solve a problem in different ways, and it can give a better understanding of the problem.
+
+		Learning: Learning is also an important skill. One had to learn about the things related to it, like how to solve a problem. If we have to solve a problem while satisfying their constraints, we have to learn how it can be solved. Through out the problem, we will have to learn how to solve it.
+
+		Researching/Googling: To learn something, we have to do research of the problem, different constraints, and various operations. By doing proper Research, we can have a idea of how to solve the problem. It will fasten the process.
+
+		Problem-Solving: Problem-solving is a very important skill for Programming. We can solve a problem in various ways but we have to choose the best solution which satisfies the constraints and operations. There are some important factors to do in problem solving
+							-> Do not avoid the problem
+							-> Understand the problem
+							-> List out the constraints
+							-> Write down the operations
+							-> Solve the most constrained part and vice versa
+							-> Solve the problem which satisfies the constraints
+
+PREPOSITION: 
+		A preposition is basically a statement. It can be either true or false. For example, The bike is in the parking lot. This statement is either true or false. It cannot be both. So, the Proposition in problem-solving is that while solving a problem, it has many conditions. These conditions are called propositions. So propositions help us to proceed to solve a problem. So, breaking down the problem into logical conditions and solving the problem.
+
+TERMINAL: 
+		It is a way to interact with a computer using an interface.  It is called CLI(Command Line Interface). Koushik Anna gave an example: a terminal is like driving a manual car. we have to put transmissions; it's like we are giving commands to the car. But if we choose the other way, it's like driving an automatic car; it's like we are depending on the OS and interface. There is a difference between doing it easily and doing it correctly. Using the terminal, we can have access to what we are doing and how we are doing it. 
+
+
+GIT & GITHUB :
+
+		After so many months, I used GitHub today and learned something new. I understood how to have git locally and connect it with GitHub. Use of GitHub is helps us to track of our problems and different versions of our code. We can keep track of our projects and store our codes, resources, and files hierarchically. Using Git locally makes it more easier. It can be customized, and we can work as a team. we can have a track of their work done.
+
+
+   	
+How to create a text file using Terminal:
+		
+		To create a text file using the terminal, first type echo. "echo" is a command that simple displays a message on the screen. The code should be echo Filename.txt. It will create a text file.
+
+	echo Robin.txt			-> it will create a text file named Robin
+	echo "Hello World" > Robin.txt	-> It will create a text file named Robin and stores the content in double quotes.
+	type Robin.txt 			-> It will display the content in the Robin.txt
+	notepad Robin.txt		-> It will open the text file
+
+
+How to create a repository and store a text file in the repository and connect it with GitHub:
+
+		First I downloaded GIT from browser and to create a repository there are two ways. One is the easiest way (Automatic mode) by clicking files in GitHub and creating a new repository; the other one is using the GIT terminal(manual mode). To create a repository, mkdir Repository name and type git init
+
+		mkdir Internship	-> Creates a folder called Internship
+		git init 		-> Creates an empty repository
+	
+To add a text file, we can create it using the terminal or in a simple way. Using the terminal, we should give the corresponding command to add the file to the repository
+
+		git add Sample.txt	-> It adds a text file named Sample in the Internship repository.
+
+To check the status of the repository,
+
+		git status 		-> It shows the commits made and the untracked files and changes made locally.
+
+
+To commit a file in the repository,
+		
+		git commit -m "first Commit"	->  It will create a new commit in the Git with the message "first commit" and saves the current changes made in the repository
+
+To push the file, 
+
+		git push origin main 	-> It will upload the committed changes from our local GIT to GitHub, i.e., it uploads(pushes) the committed changes from our local main branch to the main branch. We can access the file from the Other system also.
+
+To view the remote repository URLs,
+
+		git remote -v 		-> Lists the remote repositories linked with our local Git repository along with fetch and push URLs.
+
+
+
+   I also created a new folder named Daily Reports in the Internship repository and stored the reports of Day One and Day Two. I staged the text files, committed the files, and lastly, pushed the files. By doing it repeatedly, it made it easier to understand.  I learned how to add a file using the terminal and how to stage, commit, and push the file from the local branch to the main branch using the GIT terminal. 
+	
+
+
+
+
+
+
+
+
+
+
+  
