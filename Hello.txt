@@ -1,1 +1,2 @@
 "New parallel branch" 
+"Another line" 
