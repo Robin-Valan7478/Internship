@@ -6,24 +6,23 @@
 - ## **Problem Solving Steps:**
 	- Do not avoid the problem
 	- Understand the problem
-                - Break the problem into small chunks until you can solve the problem
-                - List out the constraints
-                - Write down the operations
-                - Solve the most constrained part
-                - Solve the problems which satisfy the constraints.
+	- Break the problem into small chunks until you can solve the problem
+	- List out the constraints
+	- Write down the operations
+	- Solve the most constrained part
+	- Solve the problems which satisfy the constraints.
 
 
-        - ## ""PROPOTIONAL LOGIC:""
-                - Proportional Logic is the mathematical representation of the given statement. For example, there are two statements named p and q.
+- ## ""PROPOTIONAL LOGIC:""
+	- Proportional Logic is the mathematical representation of the given statement. For example, there are two statements named p and q.
+		- Statement p : My house is painted red	
+		- Statement q : My house is in the corner.
 
-                        - Statement p : My house is painted red
-                        - Statement q : My house is in the corner.
+	- From the above statements, both the statemnets can be true or both the statemnets can be false or either one of the statement can be true or false. There are some operators which can be represnted mathematically; they are ~, ^, and v.
 
-                - From the above statements, both the statemnets can be true or both the statemnets can be false or either one of the statement can be true or false. There are some operators which can be represnted mathematically, they are ~, ^, and v.
-
-                        -  ~ -> This operator represents "not" which is known as ""Logical Negotiation""
-                        -  ^ -> This operator represents "and" which is known as ""Logical Conjuction""
-                        -  v -> This operator represents "or" which is known as ""Logical Disjunction""
+	-  ~ -> This operator represents "not" which is known as ""Logical Negotiation""
+	-  ^ -> This operator represents "and" which is known as ""Logical Conjuction""
+	-  v -> This operator represents "or" which is known as ""Logical Disjunction""
 
 
         - ## ""IMPLICATION:""
