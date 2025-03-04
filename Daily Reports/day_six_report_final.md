@@ -1,13 +1,11 @@
-DAY
-
 
 - # DAY SIX @ SURFBOARD PAYMENTS
 
 
 
-        - ## ""PROBLEM SOLVING STEPS:""
-                - Do not avoid the problem
-                - Understand the problem
+- ## **Problem Solving Steps:**
+	- Do not avoid the problem
+	- Understand the problem
                 - Break the problem into small chunks until you can solve the problem
                 - List out the constraints
                 - Write down the operations
@@ -35,7 +33,7 @@ DAY
 
 
         - ## ""BICONDITIONAL STATEMENT:""
-                - Biconditional statements is a logical statement that will be true in both directions In simple, a biconditional statement is only true    when both parts have the same truth value (it will be either both true or both false). For example, if and only if you get an A in Maths, I will buy you an Iphone.
+                Biconditional statements are logical statements that are true in both directions. In simple terms, a biconditional statement is only true when both parts have the same truth value (it will be either both true or both false). For example, if and only if you get an A in Maths, I will buy you an iPhone.
                 - Biconditional Statements are represented as <->.
 
 
