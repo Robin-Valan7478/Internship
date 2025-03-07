@@ -206,7 +206,7 @@
 
 ## - ___PROGRAMMING LANGUAGE___:
 		
-        - It is a language used by humans to communicate with the computers easily, because computers knows only zeroes  and ones. Using a compiler, we translate our code into computer-understandable codes. Compiler acts as a translator medium btween humans and computers.
+        -It is a language used by humans to communicate with the computers easily, because computers knows only zeroes  and ones. Using a compiler, we translate our code into computer-understandable codes. Compiler acts as a translator medium btween humans and computers.
 
 	
 
