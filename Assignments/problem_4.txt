@@ -1,0 +1,13 @@
+PROBLEM 4
+
+Step 1: START
+
+Step 2: Get 2  four digit numbers as input A and B.
+
+Step 3: Initialize C=0.
+
+Step 4: Add A to C as many times as B.
+
+Step 5: Print the C value.
+
+Step 6: STOP
