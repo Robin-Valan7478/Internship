@@ -1,0 +1,15 @@
+PROBLEM 2
+
+ Step 1: Create three variables a, b, and c. Assign the values for a = 1001001001001, b= 12345567891, and c = 559922932941.
+
+Step 2: Remove the last digit in a, b, and c.
+
+Step 3: Multiply all the digits of each variable by 2.
+
+Step 4: Continue this process until each variable becomes a single digit.
+
+Step 5: Check whether the last digit of the default variable and the derived number is equal or not.
+
+Step 6: If the derived number is equal to the last digit of the default variable, then print the number is valid, else print the number is not valid.
+
+Step 7: STOP
