@@ -1,0 +1,25 @@
+PROBLEM 1:
+
+Step 1: START 
+
+Step 2: Create a variable called Name and temp.
+
+Step 3: Give the value as "Internship" to the name variable and "2025 Internship to the temp variable.".
+
+Step 4: Print the name value.
+
+Step 5: Print the temp value in the next line.
+
+Step 6: Now, Print again the name value 5 times.
+
+Step 7: Show the Output: 
+
+		Internship
+		2025 Internship
+		Internship
+		Internship
+		Internship
+		Internship
+		Internship
+
+Step 8: STOP
