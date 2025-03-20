@@ -1,0 +1,11 @@
+PROBLEM 3(GCD)
+
+Step 1: START
+
+Step 2: Take input as two non-prime numbers, X and Y 
+
+Step 3: While X != Y,
+
+Step 4: If X is greater than Y, then Set X=X-Y. Else, Set Y=Y-X.
+
+Step 5: When X and Y becomes equal, print the GCD number 
