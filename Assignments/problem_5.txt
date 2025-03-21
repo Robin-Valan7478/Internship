@@ -1,0 +1,16 @@
+PROBLEM_5
+
+Step 1 -> Start
+Step 2 -> Make a list that shows what each regular Morse code means.
+Step 3 -> Change the message by: 
+			Converting ; to .
+			Converting : to -
+
+Step 4 -> Read the message one part at a time
+Step 5 -> For each part:
+		Turn it back to normal Morse code
+		Find what letter it is
+		Write down that letter
+
+Step 6 -> Show the finished message
+Step 7 -> End
