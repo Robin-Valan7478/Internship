@@ -85,6 +85,8 @@ adds reactive capabilities for more automated state managements.
 
 ## - _Conditions and Loops:_
 
+ ### - _CONDITIONS:_
+
     - if statement: It executes a block if the condition is true or else it won't execute the block.
 
     - if-else statement: It executes one block if true, or if its flase it executes the another statement.
@@ -94,3 +96,43 @@ adds reactive capabilities for more automated state managements.
     - else statemnt depends upon the if statement, whereas if statement doesn't depend on anything. it just executes the code, but else executes only when if statement is false.
 
 
+
+ ### - _LOOPS:_
+
+
+    - We use for loop to avoid repetations. A for loop is used to execute a block of code multiple times which will be   based on the condition. It has three   parts: 
+
+        - Initialization: it sets up the loop variable.
+        - Condition: The loop runs while the condition is true.
+        - Increment/Decrement: It updates the loop variable after each iteration.
+
+    - Syntax: for(int i=0; i<5, i++){                
+                    print(i); }
+
+            // Output
+                    0
+                    1
+                    2
+                    3
+                    4
+
+
+## - _JSON:_
+        
+        - JSON(JavaScript Object Notation) is a lightweight data format used for storing and exchanging data. It is easy to read and write for humans and machines. JSON's is widely used in web development, APIs, and data storage.
+
+        - Any data that come from backend, It will be in the form of JSON.
+    
+        - JSON Syntax Rules: 
+
+                - Data will be in key-value pairs.
+
+                - Keys must be strings(enclosed in double quotes).
+
+                - Values can be strings, numbers, objects, arrays, tru, false, or null.
+
+                - data is enclosed in curly braces{} for objects.
+
+                - Arrays are enclosed in square brackets[].
+
+        - JSONs is used in APIs, configuration files, data storage, web applications.
