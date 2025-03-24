@@ -59,6 +59,16 @@
    - We use Figma because It works on any devices like it can even run our browser. We can collaborate with multiple people to design together in live. We can create interactive app or website demos. We can also reuse design elements and autonate our tasks.
 
 
+## - __WIDGETS:__
+
+   - Widget in flutter is like a building block of our app.  It descrbes how a screen should look. Ex: button, text, image, or a container.
+
+   - widgets are converted into elements when we add it in the app, the elements will manage how the widget should be displayed on the screen.
+
+   - Widget have no changeable state(mutable). if we want to change, we should use statefull widget. it is a separate state object to manage changes.
+
+   - A widget can be used multiple times.
+
 
 ## - __BASIC WIDGETS IN FLUTTER: __
 
@@ -71,18 +81,10 @@
    - _APP BAR:_ A top navigation bar with a title and optional buttons. 
 
    - _MAIN AXIS and CROSS AXIS:_  It is used in row and coloumn for alignment. You can control how a row and coloumn align its children using the mainAxisAlignment and crossAxisAlignment properties. For a row, the main axis runs horizontally and the cross axis runs vertically. For a coloumn, the main axis runs vertically and the cross axis runs horizontally. 
+
    - _CONTAINER:_ It is like a box that holds other widgets. It can have colour, padding, margin, borders, and more.
 
-   - _STREAMS:_ It is used for real time data updates(eg: live chat, sensor data). It works asynchronously.
-
-   - _ValueNotifier:_ It is a special variable that notifes the UI when the value changes. It is lighter than streams   for small updates.
-
-   - _StreamController:_ A controller that manages streams(allowing adding and listening to data).
-
-
-
    - After studying these, designed a login page in figma and created a code for that exact design in flutter. 
-
 
 
 
@@ -293,5 +295,5 @@
 
 ## - _SESSSION ON RESPONSIBILITY:_
 
-   - Askin Anna gave a important session on Responsibilty. Whatever we do in our life, we should take responsible for that. We shouldn't put the blame on others, for this reason only I can't do it. Try to do it, Take responsibility and do the job. We shouldn't do it on obligation or guilt. If we do, It won't be good. It will not help us. be it in work life or personal life, we should do with an interest or love. If we do it with a guilt, obligation or for sake of others, it won't be helpful. Ownership is an important skill, we should take ownership on whatever we do, if not we will remain in the same place. We should be accountable whether it becomes succesgull or not.  We should be commited to that work. 
+   - Askin Anna gave a important session on Responsibilty. Whatever we do in our life, we should take responsible for that. We shouldn't put the blame on others, for this reason only I can't do it. Try to do it, Take responsibility and do the job. He gave us a real time example of Sriram Anna, who was also a fresher out of college who joined as an intern in Surfboard Payments. He took over the responsibility and faced the challenges and now he is the junior CTO of this company. It's because of his hardwork and he took ownership and he didn't do it on guilt or obligation, he took interest and loved doing it. We shouldn't do it on obligation or guilt. If we do, It won't be good. It will not help us. be it in work life or personal life, we should do with an interest or love. If we do it with a guilt, obligation or for sake of others, it won't be helpful. Ownership is an important skill, we should take ownership on whatever we do, if not we will remain in the same place. We should be accountable whether it becomes succesgull or not.  We should be committed to that work. 
 
