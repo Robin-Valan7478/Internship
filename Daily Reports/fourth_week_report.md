@@ -28,21 +28,21 @@
 
 ## - _DATA:_
 
-        - Data refers to values stored in variables. Data is everything. It differs in two ways, constant and varies. A collection of data is called Database. Variables contains the data. 
+   - Data refers to values stored in variables. Data is everything. It differs in two ways, constant and varies. A collection of data is called Database. Variables contains the data. 
 
-        - There are two types of data type: Primitive and Complex. In primitive data type, we can say String, int,      boolean are primitive. In Complex, we can say Array, Map, Objects are complex data type. 
+   - There are two types of data type: Primitive and Complex. In primitive data type, we can say String, int,      boolean are primitive. In Complex, we can say Array, Map, Objects are complex data type. 
 
 
 
 ## - _TYPED and UNTYPED LANGUAGES:_
 
-        - Programming languages handle data types differnetly, some reuire strict rules for types, while others are more flexible. 
+   - Programming languages handle data types differnetly, some reuire strict rules for types, while others are more flexible. 
 
-        - In Typed language, it cares about types when we use variables. If we declare a variable as a number, we cannot change it to text later.
+   - In Typed language, it cares about types when we use variables. If we declare a variable as a number, we cannot change it to text later.
 
-        - In typed, there are two types: Statically typed and dynamically typed. In Statically typed we should define the data type of a variable before using it. Example: C, C++, Java. In dynamically typed we don't have to declare types in advance. the type of variable can change while the program is running. Example: Python, Dart.
+   - In typed, there are two types: Statically typed and dynamically typed. In Statically typed we should define the data type of a variable before using it. Example: C, C++, Java. In dynamically typed we don't have to declare types in advance. the type of variable can change while the program is running. Example: Python, Dart.
 
-        - In Untyped languages, these languages don't care about types at all. variables just hold values. and the system doesn't check for type errors. Example: Assembly language. Javscript is a Untyepd language.
+   - In Untyped languages, these languages don't care about types at all. variables just hold values. and the system doesn't check for type errors. Example: Assembly language. Javscript is a Untyepd language.
 
 
 
@@ -88,9 +88,9 @@
 
 ## - _CLASS:_
 
-        - Class is like a blueprint for creating objects. It defines properties(variables) and behaviour (function/methods) that objects will have.
+   - Class is like a blueprint for creating objects. It defines properties(variables) and behaviour (function/methods) that objects will have.
 
-        - Example: 
+   - Example: 
                     class Dog{
                         String Name;
                         int cost;
@@ -99,17 +99,17 @@
 
 ## - _OBJECT:_
 
-        - An Object is a real world instance of a class. We can creta emultiple objects from a single class. Each Object will have its own values but follows the class structure. 
+   - An Object is a real world instance of a class. We can creta emultiple objects from a single class. Each Object will have its own values but follows the class structure. 
 
-        - Example: 
+   - Example: 
                     Dog dog1 = Dog("Tommy",100000, 1, "Male")
 
-        - Everytime, we create a class a constructor will also be cretaed. 
+   - Everytime, we create a class a constructor will also be cretaed. 
 
 
 ## - _CONSTRUCTOR:_
     
-        - A constructor is a special function in a class that automaticllay runs when an object is created. It is used  to initialize object properties. It automatically assigns value when an object is created. It saves time and ensures object always have valid data.
+   - A constructor is a special function in a class that automaticllay runs when an object is created. It is used  to initialize object properties. It automatically assigns value when an object is created. It saves time and ensures object always have valid data.
 
 
 
@@ -120,15 +120,14 @@
 
 ## - _PAGE STRUCTURING:_
 
-        - Page Structuring is about organizing our app's screen properly so that navigation and the data flow will be   smooth. 
+   - Page Structuring is about organizing our app's screen properly so that navigation and the data flow will be smooth. 
+   - Page Structure is like a backbone of a web design. It's how designers organize content and guide users through a digital solution like a website.
 
-        - Page Structure is like a backbone of a web design. It's how designers organize content and guide users through a digital solution like a website.
+   - Flutter Application should split into two broad layers: The UI Layer, and the Data Layer.
 
-        - Flutter Application should split into two broad layers: The UI Layer, and the Data Layer.
+   - Each Layer will be further split into different components, each will have different responsibilities, a well defined interface, and dependencies.
 
-        - Each Layer will be further split into different components, each will have different responsibilities, a well defined interface, and dependencies.
-
-        - We can split our applications into three components:
+   - We can split our applications into three components:
 
                 - Views
                 - View Models
@@ -137,9 +136,9 @@
 
 ## - _MVVM:_
 
-        - MVVM (Model-View-View Model) is a way to structure our flutter app to keep our things organized, clean, and   scalable. 
+   - MVVM (Model-View-View Model) is a way to structure our flutter app to keep our things organized, clean, and   scalable. 
 
-        - MVVM is an architectural pattern that seperates a feature of an application into three parts.
+   - MVVM is an architectural pattern that seperates a feature of an application into three parts.
 
                 - Model 
                 - View 
@@ -148,59 +147,57 @@
 
 ### - _MODEL:_
 
-        - It's basically Data and Logic. It deals with fetching, storing, and processing data.
+   - It's basically Data and Logic. It deals with fetching, storing, and processing data.
 
-        - It's holds user details like name and mail.
+   - It's holds user details like name and mail.
 
 ### - _VIEW MODEL:_
 
-        - It acts as a bridge between UI and Data.
+   - It acts as a bridge between UI and Data.
 
-        - It fetches data from the model and provides it to the view.
-
-        - It managaes the app state like loading, updating UI.
+   - It fetches data from the model and provides it to the view.
+ 
+   - It managaes the app state like loading, updating UI.
 
 ### - _VIEW:_
 
-        - The screen that the user interacts with buttons, text, images.
+   - The screen that the user interacts with buttons, text, images.
 
-
-
-  - So Basically,MVVM is used for keep our code clean,it will be easier to debug and maintain and it is scalabale.
+   - So Basically,MVVM is used for keep our code clean,it will be easier to debug and maintain and it is scalabale.
 
 
 
 ### - _CONDITIONS:_
 
-    - if statement: It executes a block if the condition is true or else it won't execute the block.
+   - if statement: It executes a block if the condition is true or else it won't execute the block.
 
-    - if-else statement: It executes one block if true, or if its flase it executes the another statement.
+   - if-else statement: It executes one block if true, or if its flase it executes the another statement.
 
-    - if-elseif-else: It has multiple conditions in it.
+   - if-elseif-else: It has multiple conditions in it.
     
-    - else statemnt depends upon the if statement, whereas if statement doesn't depend on anything. it just executes the code, but else executes only when if statement is false.
+   - else statemnt depends upon the if statement, whereas if statement doesn't depend on anything. it just executes the code, but else executes only when if statement is false.
 
 
 
 ## - _JSON:_
         
-        - JSON(JavaScript Object Notation) is a lightweight data format used for storing and exchanging data. It is easy to read and write for humans and machines. JSON's is widely used in web development, APIs, and data storage.
+   - JSON(JavaScript Object Notation) is a lightweight data format used for storing and exchanging data. It is easy to read and write for humans and machines. JSON's is widely used in web development, APIs, and data storage.
 
-        - Any data that come from backend, It will be in the form of JSON.
+   - Any data that come from backend, It will be in the form of JSON.
     
-        - JSON Syntax Rules: 
+   - JSON Syntax Rules: 
 
-                - Data will be in key-value pairs.
+   - Data will be in key-value pairs.
 
-                - Keys must be strings(enclosed in double quotes).
+   - Keys must be strings(enclosed in double quotes).
 
-                - Values can be strings, numbers, objects, arrays, tru, false, or null.
+   - Values can be strings, numbers, objects, arrays, tru, false, or null.
 
-                - data is enclosed in curly braces{} for objects.
+   - data is enclosed in curly braces{} for objects.
 
-                - Arrays are enclosed in square brackets[].
+   - Arrays are enclosed in square brackets[].
 
-        - JSONs is used in APIs, configuration files, data storage, web applications.
+   - JSONs is used in APIs, configuration files, data storage, web applications.
 
 
 
@@ -210,15 +207,13 @@
 
 ## - _Asynchronous Programming:_
 
-        - It allows apps to perform multiple tasks simultaneously, which improves user experience. It's based on async  and await keywords along with future and stream.
+  - It allows apps to perform multiple tasks simultaneously, which improves user experience. It's based on async  and await keywords along with future and stream.
 
-        - Advantages of Asynchronous Programming: It ensures the app remains responsive to user input while background  tasks complete.
+  - Advantages of Asynchronous Programming: It ensures the app remains responsive to user input while background  tasks complete.
 
-        - Improves the overall user experience and responsiveness of the app.
+  - Improves the overall user experience and responsiveness of the app.
 
-        - It helps to keep the code organized. Common Asynchronous operations are fetching data over a network, writing to a database, and reading data from the file.
-
-
+  - It helps to keep the code organized. Common Asynchronous operations are fetching data over a network, writing to a database, and reading data from the file.
 
         - Isolates and events loops
         - Futures
@@ -236,9 +231,9 @@
 ## - _FUNCTIONS:_
 
 
-        - A function is like a reusable code which performs a specific task written in it. Its like instead of repeatinga set of codes many times, we can put the code inside a function and call them whenever we want. It reduces the code lines and make it simple and easy. 
+   - A function is like a reusable code which performs a specific task written in it. Its like instead of repeatinga set of codes many times, we can put the code inside a function and call them whenever we want. It reduces the code lines and make it simple and easy. 
 
-        - A function should have four important things. They are, 
+   - A function should have four important things. They are, 
 							
 							- Function  name, 
 							- Function parameters, 
@@ -246,10 +241,10 @@
 							- Return type. 
 
 
-	- So to declare a function, we should have these four basic things. But declaring alone is not useful. We have to call the function, then only the function will be used. When we call the function, it will take the values in parameters and performs the function and returns the value. So, A function has two things, one is declaration of the function and another one is calling the function.
+   - So to declare a function, we should have these four basic things. But declaring alone is not useful. We have to call the function, then only the function will be used. When we call the function, it will take the values in parameters and performs the function and returns the value. So, A function has two things, one is declaration of the function and another one is calling the function.
 
 
-- When a function is called, the arguements or parameters can be called in two ways. They are,
+   - When a function is called, the arguements or parameters can be called in two ways. They are,
 
 								- Call by Value
 								- Call by Reference
@@ -257,16 +252,16 @@
 
 ### - _CALL BY VALUE:_	
 
-		- Call by value will pass a copy of a variable's value to a function i.e., a copy of the value is passes to the function. It changes insude the function and it will not affect the original value which is assigned.
+   - Call by value will pass a copy of a variable's value to a function i.e., a copy of the value is passes to the function. It changes insude the function and it will not affect the original value which is assigned.
 
-		- It is mainly used for primitive data types (Ex: int, double, bool, string)
+   - It is mainly used for primitive data types (Ex: int, double, bool, string)
 
 
 ### - _CALL BY REFERENCE:_
 
-		- Call by reference will pass the reference of the variable's value i.e., a reference of the variable is passed to the function. It changes inside the function affect the original variable. 
+   - Call by reference will pass the reference of the variable's value i.e., a reference of the variable is passed to the function. It changes inside the function affect the original variable. 
 
-		- It is used for objects, lists, and maps.
+   - It is used for objects, lists, and maps.
 
 
 
@@ -276,27 +271,27 @@
 
 ## - _WHILE LOOP:_
 
-        - While Loop will execute the code repeatedly as long as the specified condition remains true. we don't know the iterations.
+   - While Loop will execute the code repeatedly as long as the specified condition remains true. we don't know the iterations.
 
-        - While loop executes until the condition becomes false.
+   - While loop executes until the condition becomes false.
 
 
- - Learned about function declaration and calling and scope of a variable, like how a function works, where to use the function calling, where to declre multiple function nd call them accordingly. A variable decalred in a function is only accessible within the function. If a variable is accessed within the function the compiler first checks for the variable declaration and the value stored in referred address line. If it's not found inside the function scope it goes out of the function and checks for the variable. If the function is written inside a function, it checks for the value in the outer function. If the value isn't found in the outer function also it checks whether the variable is declared globally in the script if not it return undefined. If the function is not written inside any function then it directly look for a global scope variable outside the function, if not it returns undefined. Solved around ten programs.
+   - Learned about function declaration and calling and scope of a variable, like how a function works, where to use the function calling, where to declre multiple function nd call them accordingly. A variable decalred in a function is only accessible within the function. If a variable is accessed within the function the compiler first checks for the variable declaration and the value stored in referred address line. If it's not found inside the function scope it goes out of the function and checks for the variable. If the function is written inside a function, it checks for the value in the outer function. If the value isn't found in the outer function also it checks whether the variable is declared globally in the script if not it return undefined. If the function is not written inside any function then it directly look for a global scope variable outside the function, if not it returns undefined. Solved around ten programs.
 
 
 
 ## - _FIREBASE in my FLUTTER APP:_  
 
-        - I have designed a login page and now i am studying about authentication. I need to store the user data in firebase as a cloud storage. I have made a sign up page also. I need to make a aunthentication for both. For sign up page, I need to store the use ID and passowrd as an unique data. It will be assigned a unique key for each and every username and password. 
+   - I have designed a login page and now i am studying about authentication. I need to store the user data in firebase as a cloud storage. I have made a sign up page also. I need to make a aunthentication for both. For sign up page, I need to store the use ID and passowrd as an unique data. It will be assigned a unique key for each and every username and password. 
 
-        - for Login page, We should check whether the given username and password is stored in our database or not. If it is stored go to home page of the app. If not send a error message "This account doesn't exist". 
+   - for Login page, We should check whether the given username and password is stored in our database or not. If it is stored go to home page of the app. If not send a error message "This account doesn't exist". 
 
-        - I have created a project in the google firebase. I have also registered my android app in my firebase project. I have assigned authentication method using email id or google account. 
+   - I have created a project in the google firebase. I have also registered my android app in my firebase project. I have assigned authentication method using email id or google account. 
 
-        - I have downloaded Android Studio latest version called Meerkat and it meets the minimum requirements like the target API should be atleast 21. I should have a physical android device or an emulator from android studio.
+   - I have downloaded Android Studio latest version called Meerkat and it meets the minimum requirements like the target API should be atleast 21. I should have a physical android device or an emulator from android studio.
 
 
 ## - _SESSSION ON RESPONSIBILITY:_
 
-        - Askin Anna gave a important session on Responsibilty. Whatever we do in our life, we should take responsible for that. We shouldn't put the blame on others, for this reason only I can't do it. Try to do it, Take responsibility and do the job. We shouldn't do it on obligation or guilt. If we do, It won't be good. It will not help us. be it in work life or personal life, we should do with an interest or love. If we do it with a guilt, obligation or for sake of others, it won't be helpful. Ownership is an important skill, we should take ownership on whatever we do, if not we will remain in the same place. We should be accountable whether it becomes succesgull or not.  We should be commited to that work. 
+   - Askin Anna gave a important session on Responsibilty. Whatever we do in our life, we should take responsible for that. We shouldn't put the blame on others, for this reason only I can't do it. Try to do it, Take responsibility and do the job. We shouldn't do it on obligation or guilt. If we do, It won't be good. It will not help us. be it in work life or personal life, we should do with an interest or love. If we do it with a guilt, obligation or for sake of others, it won't be helpful. Ownership is an important skill, we should take ownership on whatever we do, if not we will remain in the same place. We should be accountable whether it becomes succesgull or not.  We should be commited to that work. 
 
