@@ -80,9 +80,13 @@
  
    - _APP BAR:_ A top navigation bar with a title and optional buttons. 
 
-   - _MAIN AXIS and CROSS AXIS:_  It is used in row and coloumn for alignment. You can control how a row and coloumn align its children using the mainAxisAlignment and crossAxisAlignment properties. For a row, the main axis runs horizontally and the cross axis runs vertically. For a coloumn, the main axis runs vertically and the cross axis runs horizontally. 
-
    - _CONTAINER:_ It is like a box that holds other widgets. It can have colour, padding, margin, borders, and more.
+
+
+## - _MAIN AXIS and CROSS AXIS:_ 
+   - It is used in row and coloumn for alignment. You can control how a row and coloumn align its children using the mainAxisAlignment and crossAxisAlignment properties. For a row, the main axis runs horizontally and the cross axis runs vertically. For a coloumn, the main axis runs vertically and the cross axis runs horizontally. 
+
+   
 
    - After studying these, designed a login page in figma and created a code for that exact design in flutter. 
 
