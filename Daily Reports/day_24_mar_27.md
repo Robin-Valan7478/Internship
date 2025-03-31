@@ -25,12 +25,8 @@
 
   - Then, I called the Authentiction class to check the user login, If it returns true then It doesn't show any error message, if not then it will display false message. I used if loop, to display the message, if isUserLoggedIn.value is true, then it will push the login screen to home page. But if the isUserLoggedIn.value is false, it returns a error message saying `Invalid Username or Password`. 
 
-  - To Display the error message I used ValueListener, this Value Listener will change the value of the value Notifier and executes the code in response.
-
-  - Using Value Listener we can easily display the error message. After initializing the value listener abve the Sign In button and below the password text field because there onloy we are displaying the error message.
-
-  - I wrote a if condition to check the user has given correct username and password, If the value is false then it prints the error message. I used padding, and gave fontsize and color for the Error text and placed it in center. If the value is true then it will return a sized box, and empty space and it goes to the home page.
-
+  - So, This was my task for today, how to show error message when user tries to enter wrong username or password. I researched it and found a way to solve. Using value Listeners we can easily update the value.
   
 
-  - Learned about value Notifier and value Listener and finished coding for firebase authentication. 
+
+  - Learned about value Notifier and finished coding for firebase authentication. 
