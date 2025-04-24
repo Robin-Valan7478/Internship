@@ -1,0 +1,25 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "surfwall",
+                    "appId": "1:1082099337478:android:7d8c47c1999bfbe023b687",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "surfwall",
+                    "configurations": {
+                        "android": "1:1082099337478:android:7d8c47c1999bfbe023b687",
+                        "ios": "1:1082099337478:ios:f8c3a857e17d96b223b687",
+                        "macos": "1:1082099337478:ios:f8c3a857e17d96b223b687",
+                        "web": "1:1082099337478:web:12201eae62e2901523b687",
+                        "windows": "1:1082099337478:web:6b5e1ee11e9af04f23b687"
+                    }
+                }
+            }
+        }
+    }
+}

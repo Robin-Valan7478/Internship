@@ -1,0 +1,38 @@
+import 'package:flutter/material.dart';
+import 'package:surf_wall/signup_page.dart';
+
+
+class SurfWall extends StatelessWidget {
+  
+  @override
+  Widget build(BuildContext context) {
+  return MaterialApp(
+    title: 'SurfWall',
+     debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.blue),
+       home: SignupPage(),
+);
+}
+}
+/*
+class AuthGate extends StatelessWidget {
+ @override
+  Widget build(BuildContext context) {
+    return StreamBuilder<User?>(
+      stream: FirebaseAuth.instance.authStateChanges(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return Scaffold(
+            body: Center(child: CircularProgressIndicator()),
+          );
+          }
+
+        if (snapshot.hasData) {
+          return HomePage();
+        } else {
+          return LoginPage();
+}
+},
+);
+}
+}*/
