@@ -76,4 +76,8 @@
 
 
 
+
+
+
+
 - After this I have two more chapters to finish due to personal reasons I couldn't finish but I will finsih it soon. I had a wonderful experience with this book, I have learned a lot from this book. I learned how to be a good leader and take responsibility instead of blaming others. Usually, I am not a fan of reading books, but this book has made a huge differnce and I loved reading this book. I learned a lot and I will use this learnings in my day to day world at the end of the day its how you seal _LEAD_ and _WIN_.
